@@ -10,7 +10,9 @@ import json
 import os
 
 app = FastAPI()
-
+@app.get("/")
+def read_root():
+    return {"message": "Overspeeding Backend is running!"}
 from fastapi.middleware.cors import CORSMiddleware
 
 app.add_middleware(
