@@ -3,9 +3,9 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import datetime
-# import uvicorn
+import uvicorn
 import cv2
-import easyocr
+# import easyocr
 import json
 import os
 
